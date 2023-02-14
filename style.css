@@ -2,12 +2,15 @@
 
 :root {
   --color-fuente-header: #ecf0f1;
-  --color-fondo-header: #2ecc71;
+  --color-fondo-header: #2ECC71;
+
+  --color-fondo-noticia: rgba(189, 195, 199,0.5);
+  --color-fechas-blog: rgba(127, 140, 141,1.0);
 }
 
 /* -------------------------- css basico de la pagina-------------------------------*/
 html {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -19,6 +22,11 @@ body {
 #header {
   display: grid;
   grid-template-columns: 30% 70%;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: 80% 20%;
 }
 
 .header_background {
@@ -47,6 +55,11 @@ body {
 #menu li{
   display: inline-block;
   margin-top: 1.2%;
+  margin-right: 1%;
+}
+
+a:hover {
+  color: #c7ecee;
 }
 
 li a {
@@ -56,6 +69,29 @@ li a {
 
 /* ------------------------------------------ Centro --------------------------------------- */
 
+/* ---- blog ---- */
+
+h1 {
+  font-weight: bold;
+  margin: 2%;
+}
+
 #titulo_de_noticia {
   margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#bloque_de_noticia {
+  background-color: var(--color-fondo-noticia);
+  border-radius: 25px;
+  margin: 2%;
+  display: block;
+  padding: 2%;
+}
+
+#fechas_blog {
+  color: var(--color-fechas-blog);
+  font-size: 80%;
 }

@@ -1,4 +1,61 @@
+/* ------------------------------ variables ---------------------------------------- */
+
+:root {
+  --color-fuente-header: #ecf0f1;
+  --color-fondo-header: #2ecc71;
+}
+
+/* -------------------------- css basico de la pagina-------------------------------*/
+html {
+  font-family: 'Open sans', sans-serif;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 1%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*------------------ Aquí va todo lo que tenga que ver con css grid -------------------- */
+#header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.header_background {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  background-color: var(--color-fondo-header);
+}
+
+/* -------------------------------- Barra superior --------------------------------------- */
+
+#logo {
+  font-size: 190%;
+  font-weight: bold;
+  color: var(--color-fuente-header);
+}
+
+#menu {
+  list-style: none;
+  padding: 0%;
+  text-align: right;
+  margin: 0%;
+  font-weight: bold;
+}
+
+#menu li{
+  display: inline-block;
+  margin-top: 1.2%;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--color-fuente-header);
+}
+
+/* ------------------------------------------ Centro --------------------------------------- */
+
+#titulo_de_noticia {
+  margin-top: 0px;
 }

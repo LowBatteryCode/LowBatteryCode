@@ -6,6 +6,8 @@
 
   --color-fondo-noticia: rgba(189, 195, 199,0.5);
   --color-fechas-blog: rgba(127, 140, 141,1.0);
+
+  --color-fondo-actualizaciones: rgba(214, 212, 212, 0.582);
 }
 
 /* -------------------------- css basico de la pagina-------------------------------*/
@@ -26,13 +28,18 @@ body {
 
 .center {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 75% 25%;
 }
 
 .header_background {
   display: block;
   margin: 0px;
   padding: 10px;
+  background-color: var(--color-fondo-header);
+}
+
+.footer_grid {
+  display: grid;
   background-color: var(--color-fondo-header);
 }
 
@@ -94,4 +101,53 @@ h1 {
 #fechas_blog {
   color: var(--color-fechas-blog);
   font-size: 80%;
+}
+
+/* ---- Lateral ----- */
+
+#lateral_general {
+  margin: 5% 1% 1% 1%;
+  padding: 2%;
+  border-left: 1px solid var(--color-fondo-header);
+}
+
+#actualizaciones {
+  background-color: var(--color-fondo-actualizaciones);
+  border-radius: 25px;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+
+#titulo_lateral {
+  font-weight: bold;
+  margin: 15% 10% 10% 15%;
+}
+
+#titulo_lateral a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo_lateral a:hover {
+  color: var(--color-fondo-header);
+}
+
+#titulo_de_la_actualizacion {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+#resumen_de_actualizacion {
+  font-size: 80%;
+}
+
+#fecha_actualizacion {
+  color: var(--color-fechas-blog);
+  font-size: 80%;
+}
+
+/* ------------------------------------------ Footer -------------------------------------------- */
+
+#marca_de_agua {
+  text-align: center;
 }

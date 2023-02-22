@@ -151,3 +151,27 @@ h1 {
 #marca_de_agua {
   text-align: center;
 }
+
+/* ------------------------------ Paginas extras ---------------------------------------------*/
+
+/* ------------------------ Actualizaciones ----------------------------------------------- */
+
+#titulo_de_Actualizaciones {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#bloque_de_Actualizacion {
+  background-color: var(--color-fondo-noticia);
+  border-radius: 25px;
+  margin: 2%;
+  display: block;
+  padding: 2%;
+}
+
+#fechas_Actualización {
+  color: var(--color-fechas-blog);
+  font-size: 80%;
+}

@@ -1,126 +1,13 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Low Battery</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="icon" href="Imagenes/icono/icono.ico">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
   </head>
   <body>
-<!----------------------------- Barra superior ------------------------------------------------>
-    <div class="header_background">
-        <div id="header">
-          <header id="logo">Low Battery code</header>
-
-          <nav>
-            <ul id="menu">
-              <li><a href="index.html">Principal</a></li>
-              <li><a href="Paginas/Acerca.html">Acerca de nosotros</a></li>
-              <li><a href="Paginas/Contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
-        </div>
-    </div>
-<!------------------------------------------- Blog -------------------------------------------->
-    <div class="center">
-
-      <div>
-        <h1>Blog</h1>
-        <section id="bloque_de_noticia">
-          <article>
-            <p id="titulo_de_noticia">Algunas de las cosas que estuve haciendo esta semana</p>
-            <time datetime="14-02-2023" id="fechas_blog">Publicado 22/02/2023</time>
-            <p>
-              ¡Hola a todos! Estoy muy emocionado de compartir con ustedes una gran noticia: ¡he aprendido JavaScript y ahora estoy probando React! 🎉
-              <br>
-              Sé que muchos de ustedes se preguntarán qué es eso y por qué es tan importante para mí. Pues bien, les voy a explicar un poco de qué se trata y cómo va a mejorar la calidad de mi página web.
-              <br>
-              JavaScript es un lenguaje de programación que permite crear páginas web dinámicas e interactivas. Es decir, páginas que cambian según las acciones del usuario o los datos que se reciben. Por ejemplo, con JavaScript se pueden hacer animaciones, juegos, formularios, mapas y muchas cosas más.
-              <br>
-              React es una biblioteca de JavaScript que facilita el desarrollo de interfaces de usuario. Con React se pueden crear componentes reutilizables que se actualizan automáticamente cuando cambia el estado de la aplicación. Por ejemplo, con React se pueden hacer menús desplegables, listas filtrables, gráficos y muchas cosas más.
-              <br>
-              ¿Y por qué me he decidido a aprender estas tecnologías? Pues porque creo que son muy útiles y populares en el mundo web. Además, me gustan los retos y siempre estoy buscando aprender cosas nuevas que me ayuden a mejorar mis habilidades como desarrollador web.
-              <br>
-              Mi objetivo es incorporar JavaScript y React en mi página web para hacerla más moderna, atractiva y funcional. Quiero ofrecerles a mis lectores una mejor experiencia al navegar por mi contenido y al interactuar conmigo.
-              <br>
-              Por eso les pido un poco de paciencia si ven que la actualización de hoy es pequeña. Estoy dedicando mucho tiempo al aprendizaje de estas tecnologías y al desarrollo de mi nueva página web. Espero tenerla lista pronto y poder mostrarles el resultado.
-              <br>
-              Les agradezco mucho su apoyo y su interés por mi trabajo. Sin ustedes nada de esto sería posible. Les prometo que valdrá la pena la espera y que les sorprenderé con una página web increíble.
-              <br>
-              Les mando un fuerte abrazo y nos vemos pronto.
-            </p>
-          </article>
-        </section>
-
-        <section id="bloque_de_noticia">
-          <article>
-            <p id="titulo_de_noticia">Experimentando con Java script</p>
-            <time datetime="14-02-2023" id="fechas_blog">Publicado 14/02/2023</time>
-            <p>
-            Estoy empezando a experimentar con JS, aunque aún no implementaré nada de lo que haga. Esto lo hago principalmente para cuando llegue el momento de lanzar la primera gran actualización, que implementará muchas cosas y será un salto cualitativo enorme. Pero aún me queda mucho trabajo en la estructura básica de la página.
-            <br>
-            Algunas de las cosas que espero implementar es agregar algún sistema para poder escribir en el blog sin necesidad de tener que editar directamente el código, como estoy haciendo ahora. No sé si sea posible, pero de ser así, asumo que será difícil. Por eso estoy probando cosas.
-            </p>
-          </article>
-        </section>
-
-        <section id="bloque_de_noticia">
-          <article>
-            <p id="titulo_de_noticia">Trabajando con css</p>
-            <time datetime="14-02-2023" id="fechas_blog">Publicado 14/02/2023</time>
-            <p>Esta ha sido una actualización que me tomó bastante trabajo, pero a pesar de eso, en comparación con los planes que tengo, es apenas una actualización mediana. Nunca he trabajado más allá de JS, así que estoy bastante emocionado por todo lo que está por venir, con lo que tendré que tener un mejor control de las herramientas, principalmente de Git. Pero volviendo al tema de CSS, ha sido un trabajo complicado y logré que, por lo menos, funcione y logré un parecido bastante bueno al de la maqueta, así que supongo que fue un éxito. Además, de la gran mejora que representa con respecto a la anterior página principal, aún queda actualizar el resto de páginas y optimizar el código, pero creo que este es un buen primer paso hacia un sinfín de mejoras.</p>
-          </article>
-        </section>
-        
-        <section id="bloque_de_noticia">
-          <article>
-            <p id="titulo_de_noticia">Primera "entrada" de blog</p>
-            <time datetime="14-02-2023" id="fechas_blog">Publicado 14/02/2023</time>
-            <p>Esta es la primera entrada de blog, entre comillas porque está en la página principal y no redirige a ningún lado. Escribo esto mientras sigo trabajando en la nueva página principal, es bastante trabajo (al menos para los estándares en los que trabajo por ahora) y aún queda mucho por hacer. Como dije, solo es la página principal porque no sé si actualizaré el resto de las páginas. Ya terminé con el header y avanzado bastante con la parte de los blogs, aunque debo hacer pruebas de cómo va a reaccionar esto cuando tenga más bloques de blog, y también estoy ajustando las proporciones. Estoy experimentando un poco con los fondos, pero de momento lo dejaré en un color sólido, además de algunos cambios de distribución. También tengo que trabajar en la parte de las actualizaciones, espero que no se crucen partes de código, aunque debo decir que me sorprende que dentro del desorden me estoy guiando bastante bien. En parte, supongo que ayudará comentar el código para no perderme. También cambié de editor, estaba en Atom pero cambié a VScode por temas de compatibilidades además de que está más actualizado.
-            </p>
-          </article>
-        </section>
-      </div>
-
-<!------------------------------------------ Lateral ----------------------------------------->
-      <div>
-        <div id="lateral_general">
-        <aside>
-          <h1 id="titulo_lateral"><a href="Paginas/actualizaciones.html">Actualizaciones</a></h1>
-          
-          <section>
-            <article id="actualizaciones">
-              <p id="titulo_de_la_actualizacion">Actualización 0.3</p>
-              <time datetime="14-02-2023" id="fecha_actualizacion">Publicado 22/02/2023</time>
-              <p id="resumen_de_actualizacion">Hola a todos. Quiero compartirles una buena noticia: hemos hecho una actualización en nuestra página de "Actualizaciones". Aunque es una actualización pequeña, es otro paso hacia adelante para mejorar nuestro servicio y ofrecerles más información. Les invitamos a visitar la página y ver las novedades que hemos añadido. Gracias por su apoyo y confianza.</p>
-            </article>
-          </section>
-
-          <section>
-            <article id="actualizaciones">
-              <p id="titulo_de_la_actualizacion">Actualización 0.2</p>
-              <time datetime="14-02-2023" id="fecha_actualizacion">Publicado 14/02/2023</time>
-              <p id="resumen_de_actualizacion">La página principal ha sido actualizada e incluye un área de blog donde se compartirán experiencias en la mejora de la página. La página de actualizaciones ya está en funcionamiento, aunque aún necesita mejoras. Entre las novedades se encuentran cambios en el estilo de la página principal, como una nueva fuente de letras y una barra de navegación, así como un resumen de la actualización en el lateral. Además, se cambió la fuente de "Open sans" a "Inter" y se agregó un icono a la página. También se ha añadido un área de blog y se actualizará el resto de las páginas pronto.</p>
-            </article>
-          </section>
-
-          <section>
-            <article id="actualizaciones">
-              <p id="titulo_de_la_actualizacion">Actualización 0.1</p>
-              <time datetime="9-02-2023" id="fecha_actualizacion">Publicado 09/02/2023</time>
-              <p id="resumen_de_actualizacion">Se ha agregado nuevo contenido a la página, aunque aún se está trabajando en ella. Entre los cambios realizados se ha incluido una lista de enlaces a otras páginas en la parte superior, aunque se ha detectado un problema con la navegación rápida que solo funciona desde la página principal. El problema se ha solucionado temporalmente, pero se está trabajando en una solución más eficiente para mejorar la experiencia del usuario.</p>
-            </article>
-          </section>
-        </aside>
-        </div>
-      </div>
-
-    </div>
-<!---------------------------------------- Pie de pagina -------------------------------------->
-    <footer class="footer_grid">
-      <p id="marca_de_agua">Portafolio "Low Battery Code" 09/02/2023 version 0.3</p>
-    </footer>
-
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

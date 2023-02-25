@@ -5,6 +5,7 @@ import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 import Actualizaciones from "./pages/Actualizaciones";
 import Contacto from "./pages/Contacto";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path="/Actualizaciones" element={<Actualizaciones />}></Route>
           <Route path="/Contacto" element={<Contacto />}></Route>
         </Routes>
+
+        <Footer version='0.4' />
       </BrowserRouter>
     </>
   );

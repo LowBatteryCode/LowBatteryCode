@@ -2,10 +2,12 @@ function Blog() {
   return (
     <div>
       <BloqueBlog 
-      titulo={''}
-      fecha={''}
+      titulo={'Hablando sobre la ultima actualización'}
+      fecha={'25/02/2023'}
       texto={'¡Hola a todos! Hoy estoy muy emocionado de compartirles la última actualización en mi página web. He estado trabajando duro en este proyecto y finalmente puedo presentarles una página completamente nueva y mejorada. Desde el cambio completo del código, hasta la implementación de React, estoy seguro de que esta actualización mejorará significativamente la experiencia de usuario.'}
-      texto2={''}
+      texto2={'Quiero destacar la página principal, que ha sido completamente rediseñada para ofrecer un aspecto moderno y fresco. Ahora, mis usuarios pueden explorar las tecnologías que utilizo en mi página, lo que les brinda una mejor comprensión sobre cómo está construida. También he agregado una sección de fuentes, donde estoy experimentando con nuevas opciones para mejorar la legibilidad y la estética general de la página.'}
+      texto3={'Lo mejor de todo es que esto es solo el comienzo. Estoy emocionado de seguir mejorando mi página web, implementando nuevas características y herramientas para mis usuarios. Estoy comprometido a brindar una experiencia de usuario excepcional y, con esta actualización, estoy un paso más cerca de lograrlo.'}
+      texto4={'Quiero agradecer a todas las personas que me han apoyado en este proyecto. ¡Realmente he disfrutado trabajando en él y estoy muy emocionado por lo que el futuro me depara! Espero compartir todas mis próximas mejoras y actualizaciones con ustedes. ¡Gracias por visitarme y por su constante apoyo!'}
       />
       <BloqueBlog 
       titulo={'Algunas de las cosas que estuve haciendo esta semana'}
